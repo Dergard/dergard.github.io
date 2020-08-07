@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="monetization" content="$ilp.uphold.com/JfUGJEHb7KEm">
+	<meta name="description"
+		content="Wondering how to upgrade the hideout in Escape From Tarkov? The game is hard enough already - so I simplified it." />
+	<meta name="keywords" content="escapefromtarkov,hideout,upgrades" />
+	<meta name="author" content="/u/xenocidebrm" />
+	<title>Escape From Tarkov Hideout Guide | eft-graph.com</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=%27+i+dl;f.parentNode.insertBefore(j,f)';
+		})(window, document, 'script', 'dataLayer', 'GTM-TDQFFPT');
+	</script>
+	<!-- End Google Tag Manager -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132380414-3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag("js", new Date());
+
+		gtag("config", "UA-132380414-3");
+	</script>
+	<!-- /GTM -->
+	<!-- Google auto-ads -->
+	<script data-ad-client="ca-pub-3528448594888707" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<link rel="shortcut icon" href="https://www.eft-graph.com/favicon.ico" />
+</head>
+
+<body>
+	<header>
+		<table>
+			<tr>
+				<td class="logotype"><a href="index.html"></a></td>
+				<td class="menu">
+					<a href="index.html" class="menuLink">Hideout graph</a>
+					<a href="#" class="menuLink disabled">Quest items</a>
+					<a href="about.html" class="menuLink">Learn more</a>
+					<a href="https://www.buymeacoffee.com/bradio" class="menuLink">Buy me a coffee</a>
+				</td>
+			</tr>
+		</table>
+	</header>
+
+	<div id="settings">
+		<div class="settings">
+			<p style="color: #33302a;">Settings:</p>
+			<div class="checkboxes">
+				<p class="checkboxP">
+					<input type="checkbox" class="checkbox" id="shouldShowAllAncestors" />
+					<label for="shouldShowAllAncestors">Show all ancestors</label>
+				</p>
+			</div>
+		</div>
+		<div class="lang">
+			<a href="#" onclick="switchToEn()">English</a> | <a href="#" onclick="switchToRu()">Русский</a>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="graph">
+			<div id="hideout-network"></div>
+		</div>
+		<div class="rightMenu">
+			<span id="infoBoxTitle">Диаграмма убежища</span>
+			<div class="rightMenuContent" id="infoBoxContent">
+				<h3>Диаграмма интерактивна, попробуйте!</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<h1>About — Escape From Tarkov Hideout Guide</h1>
+		<p>
+			<strong>Escape From Tarkov's</strong> "Hideout" feature lets players spend resources, like items found in a raid or 
+			money, in order to upgrade stations. Stations like the medbay, workshop, and nutrition unit all allow 
+			players a chance to craft items. Other stations, like the booze generator or scav case, reward PMCs with 
+			items over time. See more information on our <a href="about.html">about page</a>.
+		</p>
+		<p>
+			This guide can help you understand what the costs are for each station & which prerequisites are needed. 
+			Try interacting with and exploring the graph to optimize your upgrades!
+		</p>
+	</div>
+
+	<div class="made">
+		Made with
+		<img width="14" alt="A perfect SVG heart"
+			src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/A_perfect_SVG_heart.svg/16px-A_perfect_SVG_heart.svg.png" />
+		for EFT community by
+		<a href="https://twitter.com/brad_io">@brad_io</a> and
+		<a href="https://www.reddit.com/user/lapqa/">u/lapqa</a>
+	</div>
+
+	<script src="vis-network.min.js"></script>
+	<script src="loc/en-US.js"></script>
+	<script src="loc/ru-RU.js"></script>
+	<script src="hideout-vis.js"></script>
+	<link rel="stylesheet" href="vis-network.min.css" />
+	<!-- Please excuse the artisinal, hand-crafted icons. I don't have assets, so I had to take screenshots of my game. -->
+</body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDQFFPT" height="0" width="0"
+    style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+</html>
